@@ -1,9 +1,13 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import InformationSlider from "./components/InformationSlider";
 
 function App() {
   return (
     <>
-      <div className="image-container"></div>
+      <Navbar />
+      <img className="mainPic" src="src\public\mainpicture.png"></img>
+      <InformationSlider />
     </>
   );
 }

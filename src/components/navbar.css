@@ -1,4 +1,31 @@
 .navbar {
-  height: 100px;
-  width: 100%;
+  height: 70px;
+  width: 98%;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.navbar {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar-options {
+}
+
+.navbar-option {
+  color: blue;
+  font-family: Apercu;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.logo {
+  height: 100%;
+  width: auto;
+  margin: 15px;
 }

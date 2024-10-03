@@ -1,0 +1,19 @@
+.information-container {
+  height: 40vh;
+  display: flex;
+}
+
+#selected {
+  flex: 3;
+}
+
+.about-fbla {
+  flex: 1;
+  background-color: blue;
+}
+
+.why-fbla {
+  flex: 1;
+  height: 100%;
+  background-color: yellow;
+}

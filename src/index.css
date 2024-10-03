@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Apercu";
+  src: url("./assets/ApercuProBold.otf");
+}
+
+body {
+  background-color: #181818;
+  margin: 0;
+}
+
+li,
+ul {
+  all: unset;
+}
