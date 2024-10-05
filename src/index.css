@@ -2,13 +2,26 @@
   font-family: "Apercu";
   src: url("./assets/ApercuProBold.otf");
 }
+@font-face {
+  font-family: "ApercuM";
+  src: url("./assets/ApercuProMedium.otf");
+}
+@font-face {
+  font-family: "ApercuR";
+  src: url("./assets/ApercuProRegular.otf");
+}
 
 body {
   background-color: #181818;
   margin: 0;
+  display: flex;
 }
 
 li,
-ul {
+ul,
+a,
+h1,
+p,
+h2 {
   all: unset;
 }

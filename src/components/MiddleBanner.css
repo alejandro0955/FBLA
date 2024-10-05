@@ -1,0 +1,19 @@
+.middle-container {
+  height: 30vh;
+  width: 30vw;
+  background-color: #0a2e7f;
+  position: absolute;
+  top: 36vh;
+  left: 36vw;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 10px;
+  font-family: Apercu;
+  color: #f4ab19;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.middle-container > h1 {
+  margin: auto;
+}

@@ -1,19 +1,46 @@
 .information-container {
-  height: 40vh;
+  height: 60vh;
   display: flex;
+  overflow: hidden;
 }
 
 #selected {
-  flex: 3;
+  flex: 2;
 }
 
 .about-fbla {
   flex: 1;
-  background-color: blue;
+  background-color: #0a2e7f;
+  padding-left: 5vw;
+  padding-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.about-fbla > h1 {
+  font-size: 5vw;
+  font-family: Apercu;
+  color: #f4ab19;
+}
+
+.why-fbla > h1 {
+  font-size: 5vw;
+  font-family: Apercu;
+  color: #0a2e7f;
+}
+
+.about-fbla > p {
+  color: white;
+  font-family: ApercuR;
+  font-weight: lighter;
+  width: 70%;
 }
 
 .why-fbla {
   flex: 1;
   height: 100%;
-  background-color: yellow;
+  background-color: #f4ab19;
+  padding-left: 5%;
+  padding-top: 5%;
 }
