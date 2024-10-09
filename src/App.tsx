@@ -4,6 +4,7 @@ import InformationSlider from "./components/InformationSlider";
 import BoardMembers from "./components/BoardMembers";
 import MiddleBanner from "./components/MiddleBanner";
 import Gallery from "./components/Gallery";
+import BottomSection from "./components/BottomSection";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <InformationSlider />
       <BoardMembers />
       <Gallery />
+      <BottomSection />
     </>
   );
 }

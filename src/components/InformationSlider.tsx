@@ -23,6 +23,7 @@ function InformationSlider() {
         </div>
         <div className="why-fbla">
           <h1>Why FBLA?</h1>
+          <button></button>
           <p></p>
         </div>
       </div>

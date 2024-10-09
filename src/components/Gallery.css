@@ -1,5 +1,52 @@
-.gallery-container {
+.gallery-section {
   background-color: #f4ab19;
-  height: 50vh;
+  height: 60vh;
   width: 100%;
+  text-align: center;
+  font-family: Apercu;
+}
+
+.images-container {
+  display: flex;
+  width: 50%;
+  height: 40vh;
+  margin: auto;
+}
+
+.gallery-section > h1 {
+  font-size: 5vw;
+  color: #0a2e7f;
+}
+
+.main-image {
+  background-color: gray;
+  box-sizing: border-box;
+  flex: 1;
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+}
+
+.main-image > img {
+  width: 100%;
+}
+
+.side-images {
+  flex: 1;
+  margin: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.side-image {
+  background-color: gray;
+  box-sizing: border-box;
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
 }
