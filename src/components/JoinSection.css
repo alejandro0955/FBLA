@@ -1,0 +1,46 @@
+.join-section {
+  height: 60vh;
+  background-color: #0a2e7f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-section {
+  color: white;
+  font-family: Apercu;
+  font-size: 5vw;
+}
+
+.button-container {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+#wa {
+  background-color: #00e676;
+}
+
+#sn {
+  background-color: #145ead;
+}
+
+.button-icon {
+  height: auto;
+  width: 50px;
+  margin: auto;
+}
+
+.sbutton {
+  background: none;
+  border: 0;
+  color: white;
+  font-family: Apercu;
+  font-size: 1vw;
+  margin: auto;
+}

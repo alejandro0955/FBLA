@@ -5,6 +5,7 @@ import BoardMembers from "./components/BoardMembers";
 import MiddleBanner from "./components/MiddleBanner";
 import Gallery from "./components/Gallery";
 import BottomSection from "./components/BottomSection";
+import JoinSection from "./components/JoinSection";
 
 function App() {
   return (
@@ -13,10 +14,10 @@ function App() {
       <div className="image-container">
         <img className="mainPic" src="src\public\mainpicture.png"></img>
       </div>
-      <MiddleBanner />
       <InformationSlider />
       <BoardMembers />
       <Gallery />
+      <JoinSection />
       <BottomSection />
     </>
   );

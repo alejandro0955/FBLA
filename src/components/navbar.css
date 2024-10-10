@@ -1,14 +1,14 @@
 .navbar {
   height: 70px;
-  width: 98%;
+  width: 98vw;
   border-radius: 20px;
   background-color: white;
 }
 
 .navbar {
   position: absolute;
-  top: 1%;
-  left: 1%;
+  top: 1vw;
+  left: 1vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -19,6 +19,14 @@
   font-family: Apercu;
   margin-left: 5px;
   margin-right: 5px;
+  transition: all 0.5s;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.navbar-option:hover {
+  background-color: #0a2e7f;
+  color: white;
 }
 
 .logo {

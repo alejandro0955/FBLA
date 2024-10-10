@@ -7,36 +7,32 @@ function BoardMembers() {
         <h1>Meet the board</h1>
         <div className="card-container">
           <div className="member-card">
-            <img
-              src="public\melanieHeadshot.jpg"
-              className="memberHeadshot"
-            ></img>
-            <h2>Melanie Garcia</h2>
-            <p>President</p>
+            <img src="/Melanie.jpg" className="memberHeadshot"></img>
+            <div className="name-role">
+              <h2>Melanie Garcia</h2>
+              <p>President</p>
+            </div>
           </div>
           <div className="member-card">
-            <img
-              src="public\melanieHeadshot.jpg"
-              className="memberHeadshot"
-            ></img>
-            <h2>Daniella Padron</h2>
-            <p>Vice President</p>
+            <img src="/Daniela.jpg" className="memberHeadshot"></img>
+            <div className="name-role">
+              <h2>Daniella Padron</h2>
+              <p>Vice President</p>
+            </div>
           </div>
           <div className="member-card">
-            <img
-              src="public\melanieHeadshot.jpg"
-              className="memberHeadshot"
-            ></img>
-            <h2>Alejandro Salza</h2>
-            <p>Vice President</p>
+            <img src="/Alejandro.jpg" className="memberHeadshot"></img>
+            <div className="name-role">
+              <h2>Alejandro Salza</h2>
+              <p>Vice President</p>
+            </div>
           </div>
           <div className="member-card">
-            <img
-              src="public\melanieHeadshot.jpg"
-              className="memberHeadshot"
-            ></img>
-            <h2>Maggie</h2>
-            <p>Communications</p>
+            <img src="/Maggie.jpg" className="memberHeadshot"></img>
+            <div className="name-role">
+              <h2>Maggie Curiel</h2>
+              <p>Communications</p>
+            </div>
           </div>
         </div>
       </div>

@@ -1,9 +1,25 @@
 .image-container {
   height: 90vh;
-  overflow-y: hidden;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .mainPic {
   width: 100%;
   height: auto;
+}
+
+@media (max-width: 1600px) {
+  .mainPic {
+    height: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .image-container {
+    height: 50vh;
+  }
 }
