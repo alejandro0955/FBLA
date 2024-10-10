@@ -11,10 +11,21 @@
   src: url("./assets/ApercuProRegular.otf");
 }
 
+.root {
+  background-color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #181818;
   margin: 0;
   display: flex;
+  overflow-x: auto;
+  width: 100%;
+  
 }
 
 li,

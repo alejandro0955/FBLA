@@ -1,25 +1,24 @@
 .image-container {
-  height: 90vh;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .mainPic {
   width: 100%;
-  height: auto;
-}
-
-@media (max-width: 1600px) {
-  .mainPic {
-    height: 100%;
-  }
+  height: fit-content;
 }
 
 @media (max-width: 900px) {
   .image-container {
     height: 50vh;
+    width: 100vw
+  }
+  .mainPic {
+    height: 100%;
+    width: fit-content;
   }
 }

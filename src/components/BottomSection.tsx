@@ -4,12 +4,12 @@ function BottomSection() {
   return (
     <>
       <div className="bottom-container">
-        <div className="socials-section">
+        <div id="socials" className="socials-section">
           <h2>Socials</h2>
           <ul className="social-links">
             <li className="social-link">
               <img src="/instagram.svg"></img>
-              <p>Instagram</p>
+              <a href="https://www.instagram.com/fblapbl_kendall/">Instagram</a>
             </li>
             <li className="social-link"></li>
             <li className="social-link"></li>

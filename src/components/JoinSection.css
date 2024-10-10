@@ -44,3 +44,12 @@
   font-size: 1vw;
   margin: auto;
 }
+
+@media (max-width: 900px) {
+  .join-section {
+    font-size: 5vh;
+  }
+  .sbutton {
+    font-size: 2.5vh;
+  }
+}
