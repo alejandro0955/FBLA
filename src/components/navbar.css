@@ -22,6 +22,7 @@
   transition: all 0.5s;
   border-radius: 20px;
   padding: 10px;
+  font-size: 1.5vw;
 }
 
 .navbar-option:hover {
@@ -33,4 +34,25 @@
   height: 100%;
   width: auto;
   margin: 15px;
+}
+
+.small-logo {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+  .small-logo {
+    height: 100%;
+    width: auto;
+    display: block;
+  }
+  .navbar-option {
+    font-size: 1.5vh;
+  }
+  .navbar-options {
+    display: none;
+  }
 }

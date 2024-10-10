@@ -36,19 +36,32 @@
 
 .image {
   background-color: gray;
-  border: 1px solid black;
   flex: 1;
-  min-height: 20vh;
-  min-width: 10vw;
   overflow: hidden;
   transition: all 0.5s;
+  display: block;
+  display: flex;
+  min-width: 10vw;
+  max-height: 10vw;
+  justify-content: center;
+  align-items: center;
 }
 
 .image:hover {
-  scale: 1.5;
+  scale: 1.2;
 }
 
-.side-image > img {
+.image > img {
   width: 100%;
-  height: auto;
+}
+
+@media (max-width: 900px) {
+  .images-container {
+    width: 90%;
+    overflow-y: scroll;
+  }
+  .image {
+    min-width: 25vw;
+    max-height: 25vw;
+  }
 }
