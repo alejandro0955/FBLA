@@ -15,7 +15,7 @@ function App() {
       </div>
       <InformationSlider />
       <BoardMembers />
-      {/* <Gallery /> */}
+      <Gallery />
       <JoinSection />
       <BottomSection />
     </>
