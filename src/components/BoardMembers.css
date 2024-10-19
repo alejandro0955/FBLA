@@ -44,8 +44,8 @@
 }
 
 .member-card > img {
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: fit-content;
   border-radius: 20px 20px 0px 0px;
 }
 

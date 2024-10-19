@@ -21,7 +21,7 @@ function BoardMembers() {
             </div>
           </div>
           <div className="member-card">
-            <img src="/Alejandro.jpg" className="memberHeadshot"></img>
+            <img src="/Alejandro.jpeg" className="memberHeadshot"></img>
             <div className="name-role">
               <h2>Alejandro Salza</h2>
               <p> 2nd Vice President</p>
