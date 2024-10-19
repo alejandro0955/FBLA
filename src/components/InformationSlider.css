@@ -3,15 +3,15 @@
   display: flex;
   overflow: hidden;
   flex-direction: row;
-  transition: all 0.5s
+  transition: all 0.5s;
 }
 
 @keyframes expand {
   0% {
-    flex:1
+    flex: 1;
   }
   100% {
-    flex: 2
+    flex: 2;
   }
 }
 
@@ -114,19 +114,18 @@
   }
 }
 
-
 #selected {
   animation: expand 1s forwards;
   text-align: left;
   justify-content: left;
 }
 
-#selected>p {
+#selected > p {
   display: block;
   animation: showp 1s forwards;
 }
 
-#selected>button {
+#selected > button {
   display: none;
 }
 
@@ -148,21 +147,21 @@
     justify-content: center;
     align-items: center;
   }
-  .why-fbla>p {
+  .why-fbla > p {
     font-size: 3vw;
   }
   .why-fbla > h1 {
     font-size: 10vw;
   }
   .why-button {
-    width: 10vw;
-    height: 10vw;
-    font-size: 6vw;
+    width: 10svw;
+    height: 10svw;
+    font-size: 6svw;
   }
 
   .about-button {
-    width: 10vw;
-    height: 10vw;
-    font-size: 6vw;
+    width: 10svw;
+    height: 10svw;
+    font-size: 6svw;
   }
 }
