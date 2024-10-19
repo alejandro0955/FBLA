@@ -38,19 +38,19 @@ function InformationSlider() {
         <div id={why} className="why-fbla">
           <h1>Why FBLA?</h1>
           <p>
-            Joining FBLA at our school offers a range of benefits that help
-            students grow personally and professionally: Career Preparation:
-            Gain skills in business, leadership, and technology that can set you
-            up for success in any career path. Competitions: Participate in
-            regional, state, and national competitions to showcase your talents
-            in business-related events. Networking: Connect with peers, business
-            leaders, and mentors who can help guide your future career.
-            Leadership Opportunities: Take on roles within our chapter to build
-            confidence and lead projects that make an impact. Scholarships:
-            Access exclusive scholarships and awards that can help fund your
-            education. Community Involvement: Engage in service projects that
-            benefit both the school and local community, building a sense of
-            responsibility.
+            Joining FBLA at our school provides numerous opportunities for
+            personal and professional growth. It prepares students for future
+            careers by developing essential skills in business, leadership, and
+            technology. Members can participate in regional, state, and national
+            competitions to showcase their talents, while also building valuable
+            networks with peers, business professionals, and mentors. FBLA
+            offers leadership opportunities within the chapter, allowing
+            students to take on roles that boost confidence and foster
+            real-world experience. Additionally, members can access exclusive
+            scholarships and engage in meaningful community service projects
+            that contribute to both the school and the local area. Overall, FBLA
+            is a great way to stand out on college applications while gaining
+            practical skills for the future.
           </p>
           <button onClick={yellowButton} className="why-button">
             ?
