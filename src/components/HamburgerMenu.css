@@ -1,52 +1,47 @@
 @keyframes open {
-  
 }
 
 @keyframes close {
-  
 }
-
 
 .hmenu {
   margin-left: auto;
   margin-right: 3%;
+  /* margin: auto; */
+  height: 40px;
   display: none;
+  justify-content: center;
+  align-items: center;
 }
 
-
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .hmenu {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 }
-
 
 .line {
   height: 3px;
   width: 30px;
   background-color: #0a2e7f;
-  margin: 5px;
+  margin: 2.5px;
   border-radius: 20px;
   box-sizing: content-box;
-  transform: rotate(0deg) translate(0px,0px);
+  transform: rotate(0deg) translate(0px, 0px);
 }
 
-
-#l1-open{
+#l1-open {
   margin: 0;
-  transform-origin: 15px 1.5px;
-  transform: rotate(45deg) translate(0px,1.5px);
+  transform: rotate(45deg) translate(0px, 1.5px);
 }
-
 
 #l2-open {
   margin: 0;
   display: none;
 }
 
-
 #l3-open {
   margin: 0;
-  transform-origin: 15px 1.5px;
-  transform: rotate(-45deg) translate(0px,-1.5px);
+  transform: rotate(-45deg) translate(0px, -1.5px);
 }
