@@ -25,6 +25,9 @@
   border-radius: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 .name-role {
@@ -44,8 +47,8 @@
 }
 
 .member-card > img {
-  height: 100%;
-  width: fit-content;
+  min-width: 100%;
+  height: 70%;
   border-radius: 20px 20px 0px 0px;
 }
 
