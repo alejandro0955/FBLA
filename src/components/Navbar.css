@@ -1,24 +1,41 @@
 @keyframes open-menu {
-  from {
+  0% {
     width: 98%;
     height: 70px;
   }
-  to {
+  50% {
     width: 40%;
-    height: auto;
-    background-color: white, 0.5;
+  }
+  100% {
+    height: 350px;
+    width: 40%;
   }
 }
 
 @keyframes close-menu {
-  from {
-    width: 50%;
-    height: 50%;
+  0% {
+    height: 350px;
+    width: 40%;
   }
-  to {
+  50% {
+    width: 98%;
+  }
+  100% {
     width: 98%;
     height: 70px;
   }
+}
+
+@keyframes show-options {
+  from {
+    transform: translate(100%, 0);
+  }
+  to {
+    transform: translate(0%, 0);
+  }
+}
+
+@keyframes hide-options {
 }
 
 .navbar {
@@ -44,6 +61,7 @@
 
 #small-navbar-open > div {
   margin: 10px auto 10px auto;
+  animation: show-options 0.5s forwards;
 }
 
 #small-navbar-open > ul {
@@ -51,6 +69,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: show-options 0.5s forwards;
 }
 
 #small-navbar-close {
@@ -103,6 +122,7 @@
   } */
   .navbar-options {
     display: none;
+    transition: all 0s;
   }
   .navbar-option {
     margin: 2.5px;
