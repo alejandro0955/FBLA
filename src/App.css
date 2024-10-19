@@ -21,10 +21,6 @@
   }
   .mainPic {
     height: 100%;
-    width: fit-content;
-  }
-  .mainPic {
-    height: 100%;
-    width: fit-content;
+    width: auto;
   }
 }
