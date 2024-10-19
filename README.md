@@ -29,5 +29,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-[product-screenshot]: public\github-image.png
-[product-screenshot2]: public\github-image2.png
+[product-screenshot]: public/github-image.png
+[product-screenshot2]: public/github-image2.png
