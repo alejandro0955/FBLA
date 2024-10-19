@@ -5,10 +5,10 @@
   background-color: white;
   position: absolute;
   top: 1%;
-  left: 1%;
+  right: 1%;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items:center;
 }
 
 .navbar-option {
@@ -28,7 +28,7 @@
 }
 
 .logo {
-  height: 100%;
+  height: 2vw;
   width: auto;
   margin: 15px;
 }
@@ -42,7 +42,7 @@
     display: none;
   }
   .small-logo {
-    height: 100%;
+    height: 70px;
     width: auto;
     display: block;
   }
