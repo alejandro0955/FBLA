@@ -10,12 +10,14 @@
 .mainPic {
   width: 100%;
   height: fit-content;
+  max-width: 3600px;
+  max-height: 2079px;
 }
 
 @media (max-width: 900px) {
   .image-container {
     height: 50vh;
-    width: 100vw
+    width: 100vw;
   }
   .mainPic {
     height: 100%;
