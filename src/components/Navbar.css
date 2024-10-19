@@ -116,7 +116,7 @@
     height: 70px;
     width: fit-content;
     display: block;
-    box-sizing: content-box;
+    width: -webkit-fit-content;
   }
   /* .navbar-option {
     font-size: 1.5vh;
