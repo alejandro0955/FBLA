@@ -34,6 +34,13 @@ function BoardMembers() {
               <p>Chief Communications Officer</p>
             </div>
           </div>
+          <div className="member-card">
+            <img src="/Danielaa.jpg" className="memberHeadshot"></img>
+            <div className="name-role">
+              <h2>Daniela Vazquez</h2>
+              <p>Chief Financial Officer</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
